@@ -4,7 +4,7 @@
  * 
  *  ?khối 1 input
  * 
- * number
+ * soTuNhien
  * 
  * 
  * 
@@ -15,6 +15,7 @@
  * lâp công thưc
  * =>  soHangChuc = Math.floor(number/10);
  * =>  soHangDV = (number%10);
+ * tong = ( Math.floor(number/10)+ (number%10))
  * 
  * 
  * ?khối 3 output
