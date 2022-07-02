@@ -2,11 +2,11 @@
  * !  bài 2 tính giá trị trung bình
  * 
  * ?khối 1 input
- * soThuc1
- * soThuc2
- * soThuc3
- * soThuc4
- * soThuc5
+ * sothunhat
+ * sothuhai
+ * sothuctu
+ * sothucnam
+ * sothucba
  * 
  * 
 
@@ -14,16 +14,16 @@
  *  tạo biến
  * gán giá trị
  * lâp công thưc
- * =>> trungBinh = (soThuc1 + soThuc2 + soThuc3 + soThuc4 + soThuc5)/5;
+ * =>> var gttb = ( Number(sothunhat) + Number(sothuhai) + Number(sothuba) + Number(sothutu)+ Number(sothunam))/5;
  * 
  * 
  * ?khối 3 output
- * trungBinh
+ * tinhGTTB
  * 
  * 
  */
 
- function tinhDTB(){
+ function tinhGTTB(){
    
     var sothunhat = document.getElementById("somot").value;
     var sothuhai = document.getElementById("sohai").value;
@@ -38,4 +38,4 @@
     document.getElementById("txtResult").innerHTML = gttb;
 }
 
-document.getElementById("btnTinh").onclick = tinhDTB;
+document.getElementById("btnTinh").onclick = tinhGTTB;
